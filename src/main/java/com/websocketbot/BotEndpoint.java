@@ -16,7 +16,6 @@ import com.websocketbot.messages.*;
 
 import javax.annotation.Resource;
 import javax.enterprise.concurrent.ManagedExecutorService;
-import javax.inject.Inject;
 import javax.websocket.*;
 import javax.websocket.server.ServerEndpoint;
 import java.io.IOException;
@@ -36,18 +35,15 @@ import java.util.logging.Logger;
 public class BotEndpoint {
     private static final Logger logger = Logger.getLogger("BotEndpoint");
     /* Bot functionality bean */
-    @Inject
-    private BotBean botbean;
+//    @Inject
+    private BotBean botbean = new BotBean();
     /* Executor service for asynchronous processing */
     @Resource(name="comp/DefaultManagedExecutorService")
     private ManagedExecutorService mes;
     
     @OnOpen
     public void openConnection(Session session) throws IOException, EncodeException {
-
         logger.log(Level.INFO, "Connection opened.");
-        session.getBasicRemote().sendObject("It's the message from server.");
-
     }
     
     @OnMessage

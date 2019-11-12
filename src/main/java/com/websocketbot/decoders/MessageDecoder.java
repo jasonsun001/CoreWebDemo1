@@ -50,6 +50,8 @@ public class MessageDecoder implements Decoder.Text<Message> {
                     msg = new ChatMessage(messageMap.get("name"),
                                           messageMap.get("target"),
                                           messageMap.get("message"));
+                default:
+                    break;
             }
         } else {
             throw new DecodeException(string, "[Message] Can't decode.");
@@ -78,13 +80,17 @@ public class MessageDecoder implements Decoder.Text<Message> {
         if (keys.contains("type")) {
             switch (messageMap.get("type")) {
                 case "join":
-                    if (keys.contains("name"))
+                    if (keys.contains("name")) {
                         decodes = true;
+                    }
                     break;
                 case "chat":
                     String[] chatMsgKeys = {"name", "target", "message"};
-                    if (keys.containsAll(Arrays.asList(chatMsgKeys)))
+                    if (keys.containsAll(Arrays.asList(chatMsgKeys))) {
                         decodes = true;
+                    }
+                    break;
+                default:
                     break;
             }
         }

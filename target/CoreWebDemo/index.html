@@ -25,15 +25,21 @@
           wsconsole = document.getElementById("wsconsole");
           userlist = document.getElementById("userlist");
           wsocket = new WebSocket("ws://localhost:8080/CoreWebDemo/websocketbot");
+          console.log(wsocket)
           wsocket.onmessage = onMessage;
+          wsocket.onopen = onOpen;
+          wsocket.onclose = onClose;
+          wsocket.onerror = onError;
           document.getElementById("name").focus();
           document.getElementById("consolediv").style.visibility = 'hidden';
       }
+
       /* Callback function for incoming messages
        * evt.data contains the message
        * Update the chat area, user's area and Websocket console */
       function onMessage(evt) {
           var line = "";
+          console.log('Data received...', evt);
           /* Parse the message into a JavaScript object */
           var msg = JSON.parse(evt.data);
           if (msg.type === "chat") {
@@ -58,6 +64,21 @@
           /* Update the Websocket console area */
           wsconsole.value += "-> " +  evt.data + "\n";
           wsconsole.scrollTop = 999999;
+      }
+      /*
+       * Callback function for notify open of a ws connection.*/
+      function onOpen(event) {
+          console.log('websocket connection built successfully...', event)
+      }
+      /*
+       * Callback function for notification of a ws close.*/
+      function onClose(event) {
+          console.log('websocket connection closed...', event)
+      }
+      /*
+       * Callback function for notification of ws error.*/
+      function onError(event) {
+          console.log('a websocket error happened...', event)
       }
       /* Send a join message to the server */
       function sendJoin() {
