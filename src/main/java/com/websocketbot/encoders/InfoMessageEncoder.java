@@ -44,6 +44,8 @@ public class InfoMessageEncoder implements Encoder.Text<InfoMessage> {
     }
     /**
      *xxx
+     * aaa
+     * ssssss
      */
 
 }
