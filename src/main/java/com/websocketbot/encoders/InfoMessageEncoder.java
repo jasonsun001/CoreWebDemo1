@@ -22,7 +22,7 @@ import java.io.StringWriter;
  * {
  *   "type": "info",
  *   "info": "Peter has joined the chat"
- * }
+ *. }
  */
 public class InfoMessageEncoder implements Encoder.Text<InfoMessage> {
     @Override
