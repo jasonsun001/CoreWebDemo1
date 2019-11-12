@@ -43,7 +43,7 @@ public class InfoMessageEncoder implements Encoder.Text<InfoMessage> {
         return swriter.toString();
     }
     /**
-     *
+     *xxx
      */
 
 }
