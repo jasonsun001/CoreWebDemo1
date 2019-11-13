@@ -1,6 +1,7 @@
 package com.json;
 
 import javax.json.Json;
+import javax.json.JsonObject;
 import javax.json.JsonReader;
 import javax.json.JsonStructure;
 import java.io.FileNotFoundException;
@@ -8,6 +9,9 @@ import java.io.FileReader;
 import java.io.IOException;
 
 
+/**
+ * @author 14792
+ */
 public class Test1 {
 
     public static void main(String[] args) throws IOException {
@@ -50,6 +54,12 @@ public class Test1 {
         }finally {
             reader.close();
         }
+    }
+    public void  jsonObjectBuilderTest(){
+        JsonObject model = Json.createObjectBuilder()
+                .add("name", "jason")
+                .add("age", 18)
+                .build();
     }
 
 }
