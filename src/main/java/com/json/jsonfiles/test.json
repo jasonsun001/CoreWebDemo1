@@ -1,0 +1,224 @@
+{
+	"material": [{
+		"title": "2016夏天新款男士短袖t恤青少年韩版修身印花圆领半袖男装衣服潮领半袖男装衣服潮领半袖男装衣服潮",
+		"imgurl": "themes/img/pd/sf-1.jpg",
+		"tips": "产品属性；产品属性；",
+		"count": 1,
+		"price": 89.00
+	},{
+		"title": "2016夏天新款男士短袖t恤青少年韩版修身印花圆领半袖男装衣服潮领半袖男装衣服潮领半袖男装衣服潮",
+		"imgurl": "themes/img/pd/sf-1.jpg",
+		"tips": "产品属性；产品属性；",
+		"count": 1,
+		"price": 89.00
+	},{
+		"title": "2016夏天新款男士短袖t恤青少年韩版修身印花圆领半袖男装衣服潮领半袖男装衣服潮领半袖男装衣服潮",
+		"imgurl": "themes/img/pd/sf-1.jpg",
+		"tips": "产品属性；产品属性；",
+		"count": 1,
+		"price": 89.00
+	},{
+		"title": "2016夏天新款男士短袖t恤青少年韩版修身印花圆领半袖男装衣服潮领半袖男装衣服潮领半袖男装衣服潮",
+		"imgurl": "themes/img/pd/sf-1.jpg",
+		"tips": "产品属性；产品属性；",
+		"count": 1,
+		"price": 89.00
+	},{
+		"title": "2016夏天新款男士短袖t恤青少年韩版修身印花圆领半袖男装衣服潮领半袖男装衣服潮领半袖男装衣服潮",
+		"imgurl": "themes/img/pd/sf-1.jpg",
+		"tips": "产品属性；产品属性；",
+		"count": 1,
+		"price": 89.00
+	}],
+	"inform": {
+		"imgurl": "increased/img/h-img.png",
+		"username": "詹妮弗",
+		"sex": "女",
+		"birth": "10/1",
+		"phone": "188-6297-7777"
+	},
+	"collect": [{
+		"title": "2016夏天新款男士短袖t恤青少年韩版修身印花圆领半袖男装衣服潮领半袖男装衣服潮领半袖男装衣服潮",
+		"imgurl": "themes/img/pd/sf-1.jpg",
+		"tips": "产品属性；产品属性；",
+		"price": 89.00
+	},{
+		"title": "2016夏天新款男士短袖t恤青少年韩版修身印花圆领半袖男装衣服潮领半袖男装衣服潮领半袖男装衣服潮",
+		"imgurl": "themes/img/pd/sf-1.jpg",
+		"tips": "产品属性；产品属性；",
+		"price": 89.00
+	},{
+		"title": "2016夏天新款男士短袖t恤青少年韩版修身印花圆领半袖男装衣服潮领半袖男装衣服潮领半袖男装衣服潮",
+		"imgurl": "themes/img/pd/sf-1.jpg",
+		"tips": "产品属性；产品属性；",
+		"price": 89.00
+	},{
+		"title": "2016夏天新款男士短袖t恤青少年韩版修身印花圆领半袖男装衣服潮领半袖男装衣服潮领半袖男装衣服潮",
+		"imgurl": "themes/img/pd/sf-1.jpg",
+		"tips": "产品属性；产品属性；",
+		"price": 89.00
+	},{
+		"title": "2016夏天新款男士短袖t恤青少年韩版修身印花圆领半袖男装衣服潮领半袖男装衣服潮领半袖男装衣服潮",
+		"imgurl": "themes/img/pd/sf-1.jpg",
+		"tips": "产品属性；产品属性；",
+		"price": 89.00
+	}],
+	"invite": {
+		"headimg": "increased/img/Himg.png",
+		"nickname": "詹妮弗",
+		"codeImg": "increased/img/codeimg-0.png"
+	},
+	"logistics": {
+		"orderStatus": "已签收",
+		"consignee": "詹妮弗",
+		"tel": "187*****230",
+		"area": "江苏省南通市港闸区市北路33号科技城办公楼~",
+		"logisticsCompany": "韵达快递",
+		"logisticsNumber": "1313123136",
+		"deliveryTime": "201-04-25 16:24:32",
+		"logistics": [{
+			"time": "2018-03-05  16:20",
+			"desc": "您的订单已经成功牵手，签收人：詹妮弗。派送员：某某某   12568741541"
+		}, {
+			"time": "2018-03-05  16:20",
+			"desc": "店家已接单，正在努力揽货中。"
+		}]
+	},
+	"orders": [{
+		"number": "SHJCPDM001",
+		"condition": "待收货",
+		"goods": [{
+			"imgurl": "increased/img/order-img.png",
+			"title": "产品名称产品名称产品名称产产品名称......",
+			"desc": "属性特点；属性特点；",
+			"price": 1380,
+			"count": 1
+		}, {
+			"imgurl": "increased/img/order-img.png",
+			"title": "产品名称产品名称产品名称产产品名称......",
+			"desc": "属性特点；属性特点；",
+			"price": 1380,
+			"count": 1
+		}],
+		"freight": 0.00
+	}, {
+		"number": "SHJCPDM001",
+		"condition": "待付款",
+		"goods": [{
+			"imgurl": "increased/img/order-img.png",
+			"title": "产品名称产品名称产品名称产产品名称......",
+			"desc": "属性特点；属性特点；",
+			"price": 1380,
+			"count": 1
+		}],
+		"freight": 10.00
+	}, {
+		"number": "SHJCPDM001",
+		"condition": "待发货",
+		"goods": [{
+			"imgurl": "increased/img/order-img.png",
+			"title": "产品名称产品名称产品名称产产品名称......",
+			"desc": "属性特点；属性特点；",
+			"price": 1380,
+			"count": 1
+		}],
+		"freight": 0.00
+	}, {
+		"number": "SHJCPDM001",
+		"condition": "交易完成",
+		"goods": [{
+			"imgurl": "increased/img/order-img.png",
+			"title": "产品名称产品名称产品名称产产品名称......",
+			"desc": "属性特点；属性特点；",
+			"price": 1380,
+			"count": 1
+		}],
+		"freight": 0.00
+	}, {
+		"number": "SHJCPDM001",
+		"condition": "交易关闭",
+		"goods": [{
+			"imgurl": "increased/img/order-img.png",
+			"title": "产品名称产品名称产品名称产产品名称......",
+			"desc": "属性特点；属性特点；",
+			"price": 1380,
+			"count": 1
+		}],
+		"freight": 0.00
+	}, {
+		"number": "SHJCPDM001",
+		"condition": "待付款",
+		"goods": [{
+			"imgurl": "increased/img/order-img.png",
+			"title": "产品名称产品名称产品名称产产品名称......",
+			"desc": "属性特点；属性特点；",
+			"price": 1380,
+			"count": 1
+		}],
+		"freight": 10.00
+	}],
+	"order": {
+		"addressee": "梦之滇丶誓言",
+		"phone": "188-6297-7777",
+		"addrInfo": "江苏省 南通市 崇川区",
+		"address_detailed": "世伦路199号世伦名郡6号楼501室",
+		"title": "2016夏天新款男士短袖t恤青少年韩版修身印花圆领半袖男装衣服潮领半袖男装衣服潮领半袖男装衣服潮",
+		"imgurl": "themes/img/pd/sf-10.jpg",
+		"tips": "产品属性；产品属性；",
+		"count": 4,
+		"price": 89.00,
+		"integral": 0.00
+	},
+	"order2": {
+		"state": 1,
+		"addressee": "梦之滇丶誓言",
+		"phone": "188-6297-7777",
+		"addrInfo": "江苏省 南通市 崇川区",
+		"address_detailed": "世伦路199号世伦名郡6号楼501室",
+		"title": "2016夏天新款男士短袖t恤青少年韩版修身印花圆领半袖男装衣服潮领半袖男装衣服潮领半袖男装衣服潮",
+		"imgurl": "themes/img/pd/sf-10.jpg",
+		"tips": "产品属性；产品属性；",
+		"count": 4,
+		"price": 89.00,
+		"integral": 0.00,
+		"sum": 4,
+		"total": 178.00,
+		"order_number": "SHJCPCPBH1DAS201905123",
+		"order_time": "2019-04-26 19:58:00",
+		"payment_time": "2019-04-26 20:15:36",
+		"order_remarks": "订单备注内容订单备注内容订单备注内容订单备注内容订单备注内容订单备注内容",
+		"delivery_time": "2019-04-27 08:19:16",
+		"deal_time": "2019-04-28 08:19:16",
+		"cancel_time": "2019-04-28 08:19:16"
+	},
+	"products": [{
+		"imgurl": "increased/img/product.jpg",
+		"title": "品牌特点属性关键词热词功能介绍产品名称名称名称...",
+		"desc": "产品属性产品属性产品属性",
+		"price": "1280",
+		"origial": "1999",
+		"purchases": "32"
+	}],
+	"rd": {
+		"theme": "产品退换 退换成功",
+		"time": "2019年04月26日 21:53",
+		"handle": "产品退换",
+		"reason": "产品尺码不合适",
+		"replace_parameter": "M码；黄色；",
+		"replace_number": "韵达快递 YDxxxxxx2",
+		"delivery_time": "发货时间",
+		"back_number": "韵达快递 YDxxxxxx2",
+		"imgurl": "increased/img/order-img.png",
+		"order_title": "产品名称产品名称产品名称产品产品产品名称......",
+		"order_count": "1",
+		"order_desc": "属性特点；属性特点；",
+		"order_number": "SHJCPBH2019001",
+		"pay_amount": 168,
+		"order_time": "2019-04-01  18:30",
+		"order_status": "",
+		"refund_amount": "",
+		"refund_method": "",
+		"subsidy": 0,
+		"refund_number": ""
+	}
+}
